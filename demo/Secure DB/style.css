@@ -1,0 +1,115 @@
+/* style.css – Quick Facelift */
+
+/* ──────────────────────────────────────────────
+   1. Base Styles
+────────────────────────────────────────────── */
+body {
+    font-family: system-ui, sans-serif;
+
+    /* fill the viewport and remove default margins */
+    height: 100vh;
+    margin: 0;
+
+    /* center all content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background: #f5f7fa;
+}
+
+h1 {
+    color: #1848b6;
+}
+
+/* ──────────────────────────────────────────────
+   2. Tables
+────────────────────────────────────────────── */
+table {
+    /* shrink-to-fit and let flexbox center it */
+    width: auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 5px #ccc;
+}
+
+th,
+td {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #e8eefc;
+}
+
+/* ──────────────────────────────────────────────
+   3. Buttons & Links
+────────────────────────────────────────────── */
+a.button,
+button {
+    display: inline-block;
+    background: #1848b6;
+    color: #fff;
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+a.button:hover,
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* ──────────────────────────────────────────────
+   4. Forms
+────────────────────────────────────────────── */
+/* make the form a flex‐column so we can control the button’s alignment */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* or flex-end if you prefer right-aligned */
+  }
+  
+  form label {
+    /* stack the label text above the input */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;  /* makes the text/input left-aligned */
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  /* give a little breathing room between the text and the box */
+  form label input {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+/* give the button some breathing room from the inputs */
+form button {
+    margin-top: 1rem;
+}
+
+/* ──────────────────────────────────────────────
+   5. Positioning Helpers
+────────────────────────────────────────────── */
+.relative-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #f0f7fa;
+    margin-top: 2rem;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    background: salmon;
+    padding: 10px;
+}
