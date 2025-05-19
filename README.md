@@ -11,7 +11,7 @@ This project presents a technical case study and practical demonstration of SQL 
 - A vulnerable version, illustrating typical insecure coding practices.
 - A secure version, rewritten using proper validation and secure query practices.
 
-This was created as a term project for Secure Coding, Spring 2025. All simulations are strictly educational.
+All simulations are strictly educational.
 
 ---
 
