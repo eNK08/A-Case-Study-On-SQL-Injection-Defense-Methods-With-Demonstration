@@ -18,7 +18,7 @@ All simulations are strictly educational.
 ## Paper
 
 The full paper can be found in the `/paper` directory:
-- `Nikoloz Kurtanidze & James McGrath - Secure Coding Term Project.pdf`
+- `Nikoloz Kurtanidze & James McGrath - A Case Study and Demonstration of SQL Injection Vulnerabilities.pdf`
 
 ---
 
